@@ -10,6 +10,7 @@ from kivy.uix.gridlayout import GridLayout
 
 DB_NAME = 'attendance.db'
 
+
 class AttendanceApp(App):
     def build(self):
         self.conn = sqlite3.connect(DB_NAME)
